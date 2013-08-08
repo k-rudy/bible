@@ -124,15 +124,11 @@ GEM
     turbolinks (1.3.0)
       coffee-rails
     tzinfo (0.3.37)
-    uglifier (2.1.2)
-      execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   mongoid!
@@ -141,4 +137,3 @@ DEPENDENCIES
   sass-rails (~> 4.0.0)
   sdoc
   turbolinks
-  uglifier (>= 1.3.0)
