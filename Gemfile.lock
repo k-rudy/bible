@@ -46,10 +46,14 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     diff-lcs (1.2.4)
+    domain_name (0.5.12)
+      unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
     hike (1.2.3)
+    http-cookie (1.0.1)
+      domain_name (~> 0.5)
     i18n (0.6.4)
     jbuilder (1.5.0)
       activesupport (>= 3.0.0)
@@ -61,10 +65,25 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mechanize (2.7.1)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0.0)
+      mime-types (~> 1.17, >= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.4)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
     mime-types (1.23)
+    mini_portile (0.5.1)
     minitest (4.7.5)
     moped (1.5.0)
     multi_json (1.7.8)
+    net-http-digest_auth (1.4)
+    net-http-persistent (2.9)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    ntlm-http (0.1.1)
     origin (1.1.0)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -124,6 +143,10 @@ GEM
     turbolinks (1.3.0)
       coffee-rails
     tzinfo (0.3.37)
+    unf (0.1.1)
+      unf_ext
+    unf_ext (0.0.6)
+    webrobots (0.1.1)
 
 PLATFORMS
   ruby
@@ -131,6 +154,7 @@ PLATFORMS
 DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
+  mechanize
   mongoid!
   rails (~> 4.0.0)
   rspec-rails
