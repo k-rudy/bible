@@ -10,6 +10,8 @@
 /config/mongoid.yml
 /config/application.yml
 
+/coverage
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp

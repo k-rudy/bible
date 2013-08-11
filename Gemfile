@@ -38,6 +38,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'mongoid-rspec'
+  gem 'coveralls', require: false
   gem 'pry'
 end
 
