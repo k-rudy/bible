@@ -4,9 +4,13 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
 require 'pry'
-require 'coveralls'
-# Generates test coverage report for the project
-Coveralls.wear!
+
+# Run coverage reporting only on Travis
+if ENV['TRAVIS']
+  require 'coveralls'
+  # Generates test coverage report for the project
+  Coveralls.wear!
+end
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.

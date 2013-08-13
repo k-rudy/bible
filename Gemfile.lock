@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mongoid/mongoid.git
-  revision: 85e146637503522939b3a6b942c84d1bbc55c00a
+  revision: 346a79a7d01aa194de80e649916239a18d38ce13
   specs:
     mongoid (4.0.0)
       activemodel (~> 4.0.0)
@@ -62,7 +62,7 @@ GEM
     hike (1.2.3)
     http-cookie (1.0.1)
       domain_name (~> 0.5)
-    i18n (0.6.4)
+    i18n (0.6.5)
     jbuilder (1.5.0)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -171,7 +171,7 @@ GEM
     turbolinks (1.3.0)
       coffee-rails
     tzinfo (0.3.37)
-    unf (0.1.1)
+    unf (0.1.2)
       unf_ext
     unf_ext (0.0.6)
     webrobots (0.1.1)
