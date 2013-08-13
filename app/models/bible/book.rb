@@ -5,6 +5,7 @@ class Bible::Book
 
   field :name
   field :title, localize: true
+  field :title_full, localize: true
   field :chapters_count, type: Integer
 
   index name: 1

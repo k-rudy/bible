@@ -1,2 +1,3 @@
-source:
-  url: http://google.com
+sources:
+  ru:
+    url: http://google.com

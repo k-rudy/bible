@@ -1,0 +1,331 @@
+bible:
+  genesis:
+    title:
+      en:
+        short: Genesis
+        full: Genesis
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 50
+  exodus:
+    title:
+      en:
+        short: Exodus
+        full: Exodus
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 40
+  leviticus:
+    title:
+      en:
+        short: Leviticus
+        full: Leviticus
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 27
+  numbers:
+    title:
+      en:
+        short: Numbers
+        full: Numbers
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 36
+  deuteronomy:
+    title:
+      en:
+        short: Deuteronomy
+        full: Deuteronomy
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 34
+  joshua:
+    title:
+      en:
+        short: Joshua
+        full: Joshua
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 24
+  judges:
+    title:
+      en:
+        short: Judges
+        full: Judges
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 21
+  ruth:
+    title:
+      en:
+        short: Ruth
+        full: Ruth
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 4
+  1_samuel:
+    title:
+      en:
+        short: 1 Samuel
+        full: 1 Samuel
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 31
+  2_samuel:
+    title:
+      en:
+        short: 2 Samuel
+        full: 2 Samuel
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 24
+  1_kings:
+    title:
+      en:
+        short: 1 Kings
+        full: 1 Kings
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 22
+  2_kings:
+    title:
+      en:
+        short: 2 Kings
+        full: 2 Kings
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 25
+  1_chronicles:
+    title:
+      en:
+        short: 1 Chronicles
+        full: 1 Chronicles
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 29
+  2_chronicles:
+    title:
+      en:
+        short: 2 Chronicles
+        full: 2 Chronicles
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 36
+  ezra:
+    title:
+      en:
+        short: Ezra
+        full: Ezra
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 10
+  nehemiah:
+    title:
+      en:
+        short: Nehemiah
+        full: Nehemiah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 13
+  esther:
+    title:
+      en:
+        short: Esther
+        full: Esther
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 10
+  job:
+    title:
+      en:
+        short: Job
+        full: Job
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 42
+  psalms:
+    title:
+      en:
+        short: Psalms
+        full: Psalms
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 150
+  proverbs:
+    title:
+      en:
+        short: Proverbs
+        full:Proverbs
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 31
+  ecclesiastes:
+    title:
+      en:
+        short: Ecclesiastes
+        full: Ecclesiastes
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 12
+  song_of_songs:
+    title:
+      en:
+        short: Song of Songs
+        full: Song of Songs
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 8
