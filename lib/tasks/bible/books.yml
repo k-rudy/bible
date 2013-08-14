@@ -1,8 +1,9 @@
 bible:
   genesis:
+    order: 1
     title:
       en:
-        short: Genesis
+        short: Gn
         full: Genesis
       ru:
         short:
@@ -15,9 +16,10 @@ bible:
         full:
     chapters: 50
   exodus:
+    order: 2
     title:
       en:
-        short: Exodus
+        short: Ex
         full: Exodus
       ru:
         short:
@@ -30,9 +32,10 @@ bible:
         full:
     chapters: 40
   leviticus:
+    order: 3
     title:
       en:
-        short: Leviticus
+        short: Lv
         full: Leviticus
       ru:
         short:
@@ -45,9 +48,10 @@ bible:
         full:
     chapters: 27
   numbers:
+    order: 4
     title:
       en:
-        short: Numbers
+        short: Nm
         full: Numbers
       ru:
         short:
@@ -60,9 +64,10 @@ bible:
         full:
     chapters: 36
   deuteronomy:
+    order: 5
     title:
       en:
-        short: Deuteronomy
+        short: Dt
         full: Deuteronomy
       ru:
         short:
@@ -75,9 +80,10 @@ bible:
         full:
     chapters: 34
   joshua:
+    order: 6
     title:
       en:
-        short: Joshua
+        short: Jos
         full: Joshua
       ru:
         short:
@@ -90,9 +96,10 @@ bible:
         full:
     chapters: 24
   judges:
+    order: 7
     title:
       en:
-        short: Judges
+        short: Jgs
         full: Judges
       ru:
         short:
@@ -105,9 +112,10 @@ bible:
         full:
     chapters: 21
   ruth:
+    order: 8
     title:
       en:
-        short: Ruth
+        short: Ru
         full: Ruth
       ru:
         short:
@@ -120,9 +128,10 @@ bible:
         full:
     chapters: 4
   1_samuel:
+    order: 9
     title:
       en:
-        short: 1 Samuel
+        short: 1 Sm
         full: 1 Samuel
       ru:
         short:
@@ -135,9 +144,10 @@ bible:
         full:
     chapters: 31
   2_samuel:
+    order: 10
     title:
       en:
-        short: 2 Samuel
+        short: 2 Sm
         full: 2 Samuel
       ru:
         short:
@@ -150,9 +160,10 @@ bible:
         full:
     chapters: 24
   1_kings:
+    order: 11
     title:
       en:
-        short: 1 Kings
+        short: 1 Kgs
         full: 1 Kings
       ru:
         short:
@@ -165,9 +176,10 @@ bible:
         full:
     chapters: 22
   2_kings:
+    order: 12
     title:
       en:
-        short: 2 Kings
+        short: 2 Kgs
         full: 2 Kings
       ru:
         short:
@@ -180,9 +192,10 @@ bible:
         full:
     chapters: 25
   1_chronicles:
+    order: 13
     title:
       en:
-        short: 1 Chronicles
+        short: 1 Chr
         full: 1 Chronicles
       ru:
         short:
@@ -195,9 +208,10 @@ bible:
         full:
     chapters: 29
   2_chronicles:
+    order: 14
     title:
       en:
-        short: 2 Chronicles
+        short: 2 Chr
         full: 2 Chronicles
       ru:
         short:
@@ -210,9 +224,10 @@ bible:
         full:
     chapters: 36
   ezra:
+    order: 15
     title:
       en:
-        short: Ezra
+        short: Ezr
         full: Ezra
       ru:
         short:
@@ -225,9 +240,10 @@ bible:
         full:
     chapters: 10
   nehemiah:
+    order: 16
     title:
       en:
-        short: Nehemiah
+        short: Neh
         full: Nehemiah
       ru:
         short:
@@ -239,10 +255,43 @@ bible:
         short:
         full:
     chapters: 13
-  esther:
+  tobit:
+    order: 17
     title:
       en:
-        short: Esther
+        short: Tb
+        full: Tobit
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 14
+  judith:
+    order: 18
+    title:
+      en:
+        short: Jdt
+        full: Judith
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 16
+  esther:
+    order: 19
+    title:
+      en:
+        short: Est
         full: Esther
       ru:
         short:
@@ -254,10 +303,43 @@ bible:
         short:
         full:
     chapters: 10
-  job:
+  1_maccabees:
+    order: 20
     title:
       en:
-        short: Job
+        short: 1 Mc
+        full: 1 Maccabees
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 16
+  2_maccabees:
+    order: 21
+    title:
+      en:
+        short: 2 Mc
+        full: 2 Maccabees
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 15
+  job:
+    order: 22
+    title:
+      en:
+        short: Jb
         full: Job
       ru:
         short:
@@ -270,9 +352,10 @@ bible:
         full:
     chapters: 42
   psalms:
+    order: 23
     title:
       en:
-        short: Psalms
+        short: Ps
         full: Psalms
       ru:
         short:
@@ -285,9 +368,10 @@ bible:
         full:
     chapters: 150
   proverbs:
+    order: 24
     title:
       en:
-        short: Proverbs
+        short: Prv
         full:Proverbs
       ru:
         short:
@@ -300,9 +384,10 @@ bible:
         full:
     chapters: 31
   ecclesiastes:
+    order: 25
     title:
       en:
-        short: Ecclesiastes
+        short: Eccl
         full: Ecclesiastes
       ru:
         short:
@@ -315,9 +400,10 @@ bible:
         full:
     chapters: 12
   song_of_songs:
+    order: 26
     title:
       en:
-        short: Song of Songs
+        short: Sg
         full: Song of Songs
       ru:
         short:
@@ -329,3 +415,323 @@ bible:
         short:
         full:
     chapters: 8
+  wisdom:
+    order: 27
+    title:
+      en:
+        short: Wis
+        full: Wisdom
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 19
+  sirah:
+    order: 28
+    title:
+      en:
+        short: Sir
+        full: Sirah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 51
+  isaiah:
+    order: 29
+    title:
+      en:
+        short: Is
+        full: Isaiah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 66
+  jeremiah:
+    order: 30
+    title:
+      en:
+        short: Jer
+        full: Jeremiah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 52
+  lamentations:
+    order: 31
+    title:
+      en:
+        short: Lam
+        full: Lamentations
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 5
+  baruch:
+    order: 32
+    title:
+      en:
+        short: Bar
+        full: Baruch
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 6
+  ezekiel:
+    order: 33
+    title:
+      en:
+        short: Ez
+        full: Ezekiel
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 48
+  daniel:
+    order: 34
+    title:
+      en:
+        short: Dn
+        full: Daniel
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 12
+  hosea:
+    order: 35
+    title:
+      en:
+        short: Hos
+        full: Hosea
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 14
+  joel:
+    order: 36
+    title:
+      en:
+        short: Jl
+        full: Joel
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  amos:
+    order: 37
+    title:
+      en:
+        short: Am
+        full: Amos
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 9
+  obadiah:
+    order: 38
+    title:
+      en:
+        short: Ob
+        full: Obadiah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 1
+  jonah:
+    order: 39
+    title:
+      en:
+        short: Jon
+        full: Jonah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 4
+  micah:
+    order: 40
+    title:
+      en:
+        short: Mi
+        full: Micah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 7
+  nahum:
+    order: 41
+    title:
+      en:
+        short: Na
+        full: Nahum
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  habakkuk:
+    order: 42
+    title:
+      en:
+        short: Hb
+        full: Habakkuk
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  zephaniah:
+    order: 43
+    title:
+      en:
+        short: Zep
+        full: Zephaniah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  haggai:
+    order: 44
+    title:
+      en:
+        short: Hg
+        full: Haggai
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 2
+  zechariah:
+    order: 45
+    title:
+      en:
+        short: Zec
+        full: Zechariah
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 14
+  malachi:
+    order: 46
+    title:
+      en:
+        short: Mal
+        full: Malachi
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 4
