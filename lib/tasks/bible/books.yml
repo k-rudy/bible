@@ -54,7 +54,7 @@ bible:
         short: Nm
         full: Numbers
       ru:
-        short: Чис
+        short: Числ
         full: Числа
       pl:
         short:
@@ -118,8 +118,8 @@ bible:
         short: Ru
         full: Ruth
       ru:
-        short: Руф
-        full: Книга Руфи
+        short: Руфь
+        full: Книга Руфь
       pl:
         short:
         full:
@@ -135,7 +135,7 @@ bible:
         full: 1 Samuel
       ru:
         short: 1 Цар
-        full: 1-я Царств
+        full: Первая книга Царств
       pl:
         short:
         full:
@@ -151,7 +151,7 @@ bible:
         full: 2 Samuel
       ru:
         short: 2 Цар
-        full: 2-я Царств
+        full: Вторая книга Царств
       pl:
         short:
         full:
@@ -167,7 +167,7 @@ bible:
         full: 1 Kings
       ru:
         short: 3 Цар
-        full: 3-я Царств
+        full: Третья книга Царств
       pl:
         short:
         full:
@@ -183,7 +183,7 @@ bible:
         full: 2 Kings
       ru:
         short: 4 Цар
-        full: 4-я Царств
+        full: Четвертая книга Царств
       pl:
         short:
         full:
@@ -199,7 +199,7 @@ bible:
         full: 1 Chronicles
       ru:
         short: 1 Пар
-        full: 1-я Паралипоменон
+        full: Первая книга Паралипоменон, или Хроник
       pl:
         short:
         full:
@@ -215,7 +215,7 @@ bible:
         full: 2 Chronicles
       ru:
         short: 2 Пар
-        full: 2-я Паралипоменон
+        full: Вторая книга Паралипоменон, или Хроник
       pl:
         short:
         full:
@@ -230,8 +230,8 @@ bible:
         short: Ezr
         full: Ezra
       ru:
-        short: Езд
-        full: Книга Ездры
+        short: 1 Езд
+        full: Первая книга Ездры
       pl:
         short:
         full:
@@ -255,8 +255,24 @@ bible:
         short:
         full:
     chapters: 13
-  tobit:
+  2_ezr:
     order: 17
+    title:
+      en:
+        short:
+        full:
+      ru:
+        short: 2 Езд
+        full: Вторая книга Ездры
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 14
+  tobit:
+    order: 18
     title:
       en:
         short: Tb
@@ -272,13 +288,13 @@ bible:
         full:
     chapters: 14
   judith:
-    order: 18
+    order: 19
     title:
       en:
         short: Jdt
         full: Judith
       ru:
-        short: Иудиф
+        short: Иф
         full: Книга Иудифи
       pl:
         short:
@@ -288,14 +304,14 @@ bible:
         full:
     chapters: 16
   esther:
-    order: 19
+    order: 20
     title:
       en:
         short: Est
         full: Esther
       ru:
-        short: Эсф
-        full: Книга Эсфири
+        short: Есф
+        full: Книга Есфири
       pl:
         short:
         full:
