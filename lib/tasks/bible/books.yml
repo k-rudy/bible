@@ -6,8 +6,8 @@ bible:
         short: Gn
         full: Genesis
       ru:
-        short:
-        full:
+        short: Быт
+        full: Бытие
       pl:
         short:
         full:
@@ -22,8 +22,8 @@ bible:
         short: Ex
         full: Exodus
       ru:
-        short:
-        full:
+        short: Исх
+        full: Исход
       pl:
         short:
         full:
@@ -38,8 +38,8 @@ bible:
         short: Lv
         full: Leviticus
       ru:
-        short:
-        full:
+        short: Лев
+        full: Левит
       pl:
         short:
         full:
@@ -54,8 +54,8 @@ bible:
         short: Nm
         full: Numbers
       ru:
-        short:
-        full:
+        short: Чис
+        full: Числа
       pl:
         short:
         full:
@@ -70,8 +70,8 @@ bible:
         short: Dt
         full: Deuteronomy
       ru:
-        short:
-        full:
+        short: Втор
+        full: Второзаконие
       pl:
         short:
         full:
@@ -86,8 +86,8 @@ bible:
         short: Jos
         full: Joshua
       ru:
-        short:
-        full:
+        short: Нав
+        full: Книга Иисуса Навина
       pl:
         short:
         full:
@@ -102,8 +102,8 @@ bible:
         short: Jgs
         full: Judges
       ru:
-        short:
-        full:
+        short: Суд
+        full: Книга Судей Израилевых
       pl:
         short:
         full:
@@ -118,8 +118,8 @@ bible:
         short: Ru
         full: Ruth
       ru:
-        short:
-        full:
+        short: Руф
+        full: Книга Руфи
       pl:
         short:
         full:
@@ -134,8 +134,8 @@ bible:
         short: 1 Sm
         full: 1 Samuel
       ru:
-        short:
-        full:
+        short: 1 Цар
+        full: 1-я Царств
       pl:
         short:
         full:
@@ -150,8 +150,8 @@ bible:
         short: 2 Sm
         full: 2 Samuel
       ru:
-        short:
-        full:
+        short: 2 Цар
+        full: 2-я Царств
       pl:
         short:
         full:
@@ -166,8 +166,8 @@ bible:
         short: 1 Kgs
         full: 1 Kings
       ru:
-        short:
-        full:
+        short: 3 Цар
+        full: 3-я Царств
       pl:
         short:
         full:
@@ -182,8 +182,8 @@ bible:
         short: 2 Kgs
         full: 2 Kings
       ru:
-        short:
-        full:
+        short: 4 Цар
+        full: 4-я Царств
       pl:
         short:
         full:
@@ -198,8 +198,8 @@ bible:
         short: 1 Chr
         full: 1 Chronicles
       ru:
-        short:
-        full:
+        short: 1 Пар
+        full: 1-я Паралипоменон
       pl:
         short:
         full:
@@ -214,8 +214,8 @@ bible:
         short: 2 Chr
         full: 2 Chronicles
       ru:
-        short:
-        full:
+        short: 2 Пар
+        full: 2-я Паралипоменон
       pl:
         short:
         full:
@@ -230,8 +230,8 @@ bible:
         short: Ezr
         full: Ezra
       ru:
-        short:
-        full:
+        short: Езд
+        full: Книга Ездры
       pl:
         short:
         full:
@@ -246,8 +246,8 @@ bible:
         short: Neh
         full: Nehemiah
       ru:
-        short:
-        full:
+        short: Неем
+        full: Книга Неемии
       pl:
         short:
         full:
@@ -262,8 +262,8 @@ bible:
         short: Tb
         full: Tobit
       ru:
-        short:
-        full:
+        short: Тов
+        full: Книга Товита
       pl:
         short:
         full:
@@ -278,8 +278,8 @@ bible:
         short: Jdt
         full: Judith
       ru:
-        short:
-        full:
+        short: Иудиф
+        full: Книга Иудифи
       pl:
         short:
         full:
@@ -294,8 +294,8 @@ bible:
         short: Est
         full: Esther
       ru:
-        short:
-        full:
+        short: Эсф
+        full: Книга Эсфири
       pl:
         short:
         full:
@@ -310,8 +310,8 @@ bible:
         short: 1 Mc
         full: 1 Maccabees
       ru:
-        short:
-        full:
+        short: 1 Мак
+        full: 1-я Маккавейская
       pl:
         short:
         full:
@@ -326,8 +326,8 @@ bible:
         short: 2 Mc
         full: 2 Maccabees
       ru:
-        short:
-        full:
+        short: 2 Мак
+        full: 2-я Маккавейская
       pl:
         short:
         full:
@@ -342,8 +342,8 @@ bible:
         short: Jb
         full: Job
       ru:
-        short:
-        full:
+        short: Иов
+        full: Иов
       pl:
         short:
         full:
@@ -358,8 +358,8 @@ bible:
         short: Ps
         full: Psalms
       ru:
-        short:
-        full:
+        short: Пс
+        full: Псалтырь
       pl:
         short:
         full:
@@ -374,8 +374,8 @@ bible:
         short: Prv
         full:Proverbs
       ru:
-        short:
-        full:
+        short: Прит
+        full: Книга притчей Соломоновых
       pl:
         short:
         full:
@@ -390,8 +390,8 @@ bible:
         short: Eccl
         full: Ecclesiastes
       ru:
-        short:
-        full:
+        short: Екк
+        full: Книга Екклесиаста
       pl:
         short:
         full:
