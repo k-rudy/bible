@@ -735,3 +735,435 @@ bible:
         short:
         full:
     chapters: 4
+  matthew:
+    order: 47
+    title:
+      en:
+        short: Mt
+        full: Matthew
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 28
+  mark:
+    order: 48
+    title:
+      en:
+        short: Mk
+        full: Mark
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 16
+  luke:
+    order: 49
+    title:
+      en:
+        short: Lk
+        full: Luke
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 24
+  john:
+    order: 50
+    title:
+      en:
+        short: Jn
+        full: John
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 21
+  acts:
+    order: 51
+    title:
+      en:
+        short: Acts
+        full: Acts
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 28
+  romans:
+    order: 52
+    title:
+      en:
+        short: Rom
+        full: Romans
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 16
+  1_corinthians:
+    order: 53
+    title:
+      en:
+        short: 1 Cor
+        full: 1 Corinthians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 16
+  2_corinthians:
+    order: 54
+    title:
+      en:
+        short: 2 Cor
+        full: 2 Corinthians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 13
+  galatians:
+    order: 55
+    title:
+      en:
+        short: Gal
+        full: Galatians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 6
+  ephesians:
+    order: 56
+    title:
+      en:
+        short: Eph
+        full: Ephesians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 6
+  philippians:
+    order: 57
+    title:
+      en:
+        short: Phil
+        full: Philippians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 4
+  colossians:
+    order: 58
+    title:
+      en:
+        short: Col
+        full: Colossians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 4
+  1_thessalonians:
+    order: 59
+    title:
+      en:
+        short: 1 Thes
+        full: 1 Thessalonians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 5
+  2_thessalonians:
+    order: 60
+    title:
+      en:
+        short: 2 Thes
+        full: 2 Thessalonians
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  1_timothy:
+    order: 61
+    title:
+      en:
+        short: 1 Tm
+        full: 1 Timothy
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 6
+  2_timothy:
+    order: 62
+    title:
+      en:
+        short: 2 Tm
+        full: 2 Timothy
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 4
+  titus:
+    order: 63
+    title:
+      en:
+        short: Ti
+        full: Titus
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  philemon:
+    order: 64
+    title:
+      en:
+        short: Phlm
+        full: Philemon
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 1
+  hebrews:
+    order: 65
+    title:
+      en:
+        short: Heb
+        full: Hebrews
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 13
+  james:
+    order: 66
+    title:
+      en:
+        short: Jas
+        full: James
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 5
+  1_peter:
+    order: 67
+    title:
+      en:
+        short: 1 Pt
+        full: 1 Peter
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 5
+  2_peter:
+    order: 68
+    title:
+      en:
+        short: 2 Pt
+        full: 2 Peter
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 3
+  1_john:
+    order: 69
+    title:
+      en:
+        short: 1 Jn
+        full: 1 John
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 5
+  2_John:
+    order: 70
+    title:
+      en:
+        short: 2 Jn
+        full: 2 John
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 1
+  3_john:
+    order: 71
+    title:
+      en:
+        short: 3 Jn
+        full: 3 John
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 1
+  jude:
+    order: 72
+    title:
+      en:
+        short: Jude
+        full: Jude
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 1
+  revelation:
+    order: 73
+    title:
+      en:
+        short: Rev
+        full: Revelation
+      ru:
+        short:
+        full:
+      pl:
+        short:
+        full:
+      by:
+        short:
+        full:
+    chapters: 22
