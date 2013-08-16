@@ -12,8 +12,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Быц
+        full: Кніга Быцця
     chapters: 50
   exodus:
     order: 2
@@ -28,8 +28,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Зых
+        full: Кніга Зыходу
     chapters: 40
   leviticus:
     order: 3
@@ -44,8 +44,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Лев
+        full: Кніга Левіта
     chapters: 27
   numbers:
     order: 4
@@ -60,8 +60,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ліч
+        full: Кніга Лічбаў
     chapters: 36
   deuteronomy:
     order: 5
@@ -76,8 +76,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Дрг
+        full: Кніга Другазаконня
     chapters: 34
   joshua:
     order: 6
@@ -92,8 +92,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Нав
+        full: Кніга Езуса Навіна
     chapters: 24
   judges:
     order: 7
@@ -108,8 +108,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Суд
+        full: Кніга Суддзяў
     chapters: 21
   ruth:
     order: 8
@@ -124,8 +124,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Рут
+        full: Кніга Руты
     chapters: 4
   1_samuel:
     order: 9
@@ -140,8 +140,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Сам
+        full: 1 Кніга Самуэля
     chapters: 31
   2_samuel:
     order: 10
@@ -156,8 +156,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Сам
+        full: 2 Кніга Самуэля
     chapters: 24
   1_kings:
     order: 11
@@ -172,8 +172,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Вал
+        full: 1 Кніга Валадарстваў
     chapters: 22
   2_kings:
     order: 12
@@ -188,8 +188,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Вал
+        full: 2 Кніга Валадарстваў
     chapters: 25
   1_chronicles:
     order: 13
@@ -204,8 +204,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Кр
+        full: 1 Кніга Кронікаў
     chapters: 29
   2_chronicles:
     order: 14
@@ -220,8 +220,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Кр
+        full: 2 Кніга Кронікаў
     chapters: 36
   ezra:
     order: 15
@@ -236,8 +236,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Езд
+        full: Кніга Ездры
     chapters: 10
   nehemiah:
     order: 16
@@ -252,27 +252,11 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Нм
+        full: Кніга Нээміі
     chapters: 13
-  2_ezr:
-    order: 17
-    title:
-      en:
-        short:
-        full:
-      ru:
-        short: 2 Езд
-        full: Вторая книга Ездры
-      pl:
-        short:
-        full:
-      by:
-        short:
-        full:
-    chapters: 14
   tobit:
-    order: 18
+    order: 17
     title:
       en:
         short: Tb
@@ -284,11 +268,11 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Тоб
+        full: Кніга Тобія
     chapters: 14
   judith:
-    order: 19
+    order: 18
     title:
       en:
         short: Jdt
@@ -300,11 +284,11 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Юдт
+        full: Кніга Юдыты
     chapters: 16
   esther:
-    order: 20
+    order: 19
     title:
       en:
         short: Est
@@ -316,8 +300,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Эст
+        full: Кніга Эстэры
     chapters: 10
   1_maccabees:
     order: 20
@@ -327,13 +311,13 @@ bible:
         full: 1 Maccabees
       ru:
         short: 1 Мак
-        full: 1-я Маккавейская
+        full: Первая книга Маккавейская
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Мак
+        full: 1 Кніга Макабэяў
     chapters: 16
   2_maccabees:
     order: 21
@@ -343,13 +327,13 @@ bible:
         full: 2 Maccabees
       ru:
         short: 2 Мак
-        full: 2-я Маккавейская
+        full: Вторая книга Маккавейская
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Мак
+        full: 2 Кніга Макабэяў
     chapters: 15
   job:
     order: 22
@@ -364,8 +348,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ёв
+        full: Кніга Ёва
     chapters: 42
   psalms:
     order: 23
@@ -380,15 +364,15 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Пс
+        full: Кніга Псальмоў
     chapters: 150
   proverbs:
     order: 24
     title:
       en:
         short: Prv
-        full:Proverbs
+        full: Proverbs
       ru:
         short: Прит
         full: Книга притчей Соломоновых
@@ -396,8 +380,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Прып
+        full: Прыпавесці Саламона
     chapters: 31
   ecclesiastes:
     order: 25
@@ -412,8 +396,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Экл
+        full: Кніга Эклезіяста
     chapters: 12
   song_of_songs:
     order: 26
@@ -422,14 +406,14 @@ bible:
         short: Sg
         full: Song of Songs
       ru:
-        short:
-        full:
+        short: Песн
+        full: Книга Песни Песней Соломона
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Пп
+        full: Песня песняў Саламона
     chapters: 8
   wisdom:
     order: 27
@@ -438,14 +422,14 @@ bible:
         short: Wis
         full: Wisdom
       ru:
-        short:
-        full:
+        short: Прем
+        full: Книга премудрости Соломона
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Мдр
+        full: Кніга Мудрасці Саламона
     chapters: 19
   sirah:
     order: 28
@@ -454,14 +438,14 @@ bible:
         short: Sir
         full: Sirah
       ru:
-        short:
-        full:
+        short: Сир
+        full: Книга премудрости Иисуса, сына Сирахова
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Сір
+        full: Кніга Мудрасці Сіраха
     chapters: 51
   isaiah:
     order: 29
@@ -470,14 +454,14 @@ bible:
         short: Is
         full: Isaiah
       ru:
-        short:
-        full:
+        short: Ис
+        full: Книга пророка Исаии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Іс
+        full: Кніга прарока Ісаі
     chapters: 66
   jeremiah:
     order: 30
@@ -486,14 +470,14 @@ bible:
         short: Jer
         full: Jeremiah
       ru:
-        short:
-        full:
+        short: Иер
+        full: Книга пророка Иеремии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ер
+        full: Кніга прарока Ераміі
     chapters: 52
   lamentations:
     order: 31
@@ -502,14 +486,14 @@ bible:
         short: Lam
         full: Lamentations
       ru:
-        short:
-        full:
+        short: Плач
+        full: Книга Плач Иеремии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Пл
+        full: Плач Ераміі
     chapters: 5
   baruch:
     order: 32
@@ -518,14 +502,14 @@ bible:
         short: Bar
         full: Baruch
       ru:
-        short:
-        full:
+        short: Вар
+        full: Книга пророка Варуха
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Бар
+        full: Кніга прарока Баруха
     chapters: 6
   ezekiel:
     order: 33
@@ -534,14 +518,14 @@ bible:
         short: Ez
         full: Ezekiel
       ru:
-        short:
-        full:
+        short: Иез
+        full: Книга пророка Иезекииля
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Эзх
+        full: Кніга прарока Эзэхіэля
     chapters: 48
   daniel:
     order: 34
@@ -550,14 +534,14 @@ bible:
         short: Dn
         full: Daniel
       ru:
-        short:
-        full:
+        short: Дан
+        full: Книга пророка Даниила
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Дан
+        full: Кніга прарока Даніэля
     chapters: 12
   hosea:
     order: 35
@@ -566,14 +550,14 @@ bible:
         short: Hos
         full: Hosea
       ru:
-        short:
-        full:
+        short: Ос
+        full: Книга пророка Осии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ос
+        full: Кніга прарока Осіі
     chapters: 14
   joel:
     order: 36
@@ -582,14 +566,14 @@ bible:
         short: Jl
         full: Joel
       ru:
-        short:
-        full:
+        short: Иоиль
+        full: Книга пророка Иоиля
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ёэл
+        full: Кніга прарока Ёэля
     chapters: 3
   amos:
     order: 37
@@ -598,14 +582,14 @@ bible:
         short: Am
         full: Amos
       ru:
-        short:
-        full:
+        short: Ам
+        full: Книга пророка Амоса
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ам
+        full: Кніга прарока Амоса
     chapters: 9
   obadiah:
     order: 38
@@ -614,14 +598,14 @@ bible:
         short: Ob
         full: Obadiah
       ru:
-        short:
-        full:
+        short: Авд
+        full: Книга пророка Авдия
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Аўдз
+        full: Кніга прарока Аўдзіі
     chapters: 1
   jonah:
     order: 39
@@ -630,14 +614,14 @@ bible:
         short: Jon
         full: Jonah
       ru:
-        short:
-        full:
+        short: Иона
+        full: Книга пророка Ионы
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ён
+        full: Кніга прарока Ёны
     chapters: 4
   micah:
     order: 40
@@ -646,14 +630,14 @@ bible:
         short: Mi
         full: Micah
       ru:
-        short:
-        full:
+        short: Мих
+        full: Книга пророка Михея
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Міх
+        full: Кніга прарока Міхея
     chapters: 7
   nahum:
     order: 41
@@ -662,14 +646,14 @@ bible:
         short: Na
         full: Nahum
       ru:
-        short:
-        full:
+        short: Наум
+        full: Книга пророка Наума
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Нвм
+        full: Кніга прарока Навума
     chapters: 3
   habakkuk:
     order: 42
@@ -678,14 +662,14 @@ bible:
         short: Hb
         full: Habakkuk
       ru:
-        short:
-        full:
+        short: Авв
+        full: Книга пророка Аввакума
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Абк
+        full: Кніга прарока Абакума
     chapters: 3
   zephaniah:
     order: 43
@@ -694,14 +678,14 @@ bible:
         short: Zep
         full: Zephaniah
       ru:
-        short:
-        full:
+        short: Соф
+        full: Книга пророка Софонии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Саф
+        full: Кніга прарока Сафоніі
     chapters: 3
   haggai:
     order: 44
@@ -710,14 +694,14 @@ bible:
         short: Hg
         full: Haggai
       ru:
-        short:
-        full:
+        short: Агг
+        full: Книга пророка Аггея
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Аг
+        full: Кніга прарока Агея
     chapters: 2
   zechariah:
     order: 45
@@ -726,14 +710,14 @@ bible:
         short: Zec
         full: Zechariah
       ru:
-        short:
-        full:
+        short: Зах
+        full: Книга пророка Захарии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Зах
+        full: Кніга прарока Захарыі
     chapters: 14
   malachi:
     order: 46
@@ -742,14 +726,14 @@ bible:
         short: Mal
         full: Malachi
       ru:
-        short:
-        full:
+        short: Мал
+        full: Книга пророка Малахии
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Мал
+        full: Кніга прарока Малахіі
     chapters: 4
   matthew:
     order: 47
@@ -758,14 +742,14 @@ bible:
         short: Mt
         full: Matthew
       ru:
-        short:
-        full:
+        short: Мф
+        full: Евангелие от Матфея
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Мц
+        full: Евангелле паводле св. Мацвея
     chapters: 28
   mark:
     order: 48
@@ -774,14 +758,14 @@ bible:
         short: Mk
         full: Mark
       ru:
-        short:
-        full:
+        short: Мк
+        full: Евангелие от Марка
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Мк
+        full: Евангелле паводле св. Марка
     chapters: 16
   luke:
     order: 49
@@ -790,14 +774,14 @@ bible:
         short: Lk
         full: Luke
       ru:
-        short:
-        full:
+        short: Лк
+        full: Евангелие от Луки
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Лк
+        full: Евангелле паводле св. Лукі
     chapters: 24
   john:
     order: 50
@@ -806,14 +790,14 @@ bible:
         short: Jn
         full: John
       ru:
-        short:
-        full:
+        short: Ин
+        full: Евангелие от Иоанна
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ян
+        full: Евангелле паводле св. Яна
     chapters: 21
   acts:
     order: 51
@@ -822,14 +806,14 @@ bible:
         short: Acts
         full: Acts
       ru:
-        short:
-        full:
+        short: Деян
+        full: Деяния святых Апостолов
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Дз
+        full: Дзеі Апосталаў
     chapters: 28
   romans:
     order: 52
@@ -838,14 +822,14 @@ bible:
         short: Rom
         full: Romans
       ru:
-        short:
-        full:
+        short: Рим
+        full: Послание к Римлянам
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Рым
+        full: Пасланне да Рымлянаў
     chapters: 16
   1_corinthians:
     order: 53
@@ -854,14 +838,14 @@ bible:
         short: 1 Cor
         full: 1 Corinthians
       ru:
-        short:
-        full:
+        short: 1 Кор
+        full: Первое послание к Коринфянам
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Кар
+        full: 1 Пасланне да Карынцянаў
     chapters: 16
   2_corinthians:
     order: 54
@@ -870,14 +854,14 @@ bible:
         short: 2 Cor
         full: 2 Corinthians
       ru:
-        short:
-        full:
+        short: 2 Кор
+        full: Второе послание к Коринфянам
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Кар
+        full: 2 Пасланне да Карынцянаў
     chapters: 13
   galatians:
     order: 55
@@ -886,14 +870,14 @@ bible:
         short: Gal
         full: Galatians
       ru:
-        short:
-        full:
+        short: Гал
+        full: Послание к Галатам
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Гал
+        full: Пасланне да Галатаў
     chapters: 6
   ephesians:
     order: 56
@@ -902,14 +886,14 @@ bible:
         short: Eph
         full: Ephesians
       ru:
-        short:
-        full:
+        short: Еф
+        full: Послание к Ефесянам
       pl:
         short:
         full:
       by:
-        short:
-        full:
+        short: Эф
+        full: Пасланне да Эфесцаў
     chapters: 6
   philippians:
     order: 57
@@ -918,8 +902,8 @@ bible:
         short: Phil
         full: Philippians
       ru:
-        short:
-        full:
+        short: Флп
+        full: Послание к Филиппийцам
       pl:
         short:
         full:
@@ -934,8 +918,8 @@ bible:
         short: Col
         full: Colossians
       ru:
-        short:
-        full:
+        short: Кол
+        full: Послание к Колоссянам
       pl:
         short:
         full:
@@ -950,8 +934,8 @@ bible:
         short: 1 Thes
         full: 1 Thessalonians
       ru:
-        short:
-        full:
+        short: 1 Фес
+        full: Первое послание к Фессалоникийцам
       pl:
         short:
         full:
@@ -966,8 +950,8 @@ bible:
         short: 2 Thes
         full: 2 Thessalonians
       ru:
-        short:
-        full:
+        short: 2 Фес
+        full: Второе послание к Фессалоникийцам
       pl:
         short:
         full:
@@ -982,8 +966,8 @@ bible:
         short: 1 Tm
         full: 1 Timothy
       ru:
-        short:
-        full:
+        short: 1 Тим
+        full: Первое послание к Тимофею
       pl:
         short:
         full:
@@ -998,8 +982,8 @@ bible:
         short: 2 Tm
         full: 2 Timothy
       ru:
-        short:
-        full:
+        short: 2 Тим
+        full: Второе послание к Тимофею
       pl:
         short:
         full:
@@ -1014,8 +998,8 @@ bible:
         short: Ti
         full: Titus
       ru:
-        short:
-        full:
+        short: Тит
+        full: Послание к Титу
       pl:
         short:
         full:
@@ -1030,8 +1014,8 @@ bible:
         short: Phlm
         full: Philemon
       ru:
-        short:
-        full:
+        short: Флм
+        full: Послание к Филимону
       pl:
         short:
         full:
@@ -1046,8 +1030,8 @@ bible:
         short: Heb
         full: Hebrews
       ru:
-        short:
-        full:
+        short: Евр
+        full: Послание к Евреям
       pl:
         short:
         full:
@@ -1062,8 +1046,8 @@ bible:
         short: Jas
         full: James
       ru:
-        short:
-        full:
+        short: Иак
+        full: Послание Иакова
       pl:
         short:
         full:
@@ -1078,8 +1062,8 @@ bible:
         short: 1 Pt
         full: 1 Peter
       ru:
-        short:
-        full:
+        short: 1 Пет
+        full: Первое послание Петра
       pl:
         short:
         full:
@@ -1094,8 +1078,8 @@ bible:
         short: 2 Pt
         full: 2 Peter
       ru:
-        short:
-        full:
+        short: 2 Пет
+        full: Второе послание Петра
       pl:
         short:
         full:
@@ -1110,8 +1094,8 @@ bible:
         short: 1 Jn
         full: 1 John
       ru:
-        short:
-        full:
+        short: 1 Ин
+        full: Первое послание Иоанна
       pl:
         short:
         full:
@@ -1126,8 +1110,8 @@ bible:
         short: 2 Jn
         full: 2 John
       ru:
-        short:
-        full:
+        short: 2 Ин
+        full: Второе послание Иоанна
       pl:
         short:
         full:
@@ -1142,8 +1126,8 @@ bible:
         short: 3 Jn
         full: 3 John
       ru:
-        short:
-        full:
+        short: 3 Ин
+        full: Третье послание Иоанна
       pl:
         short:
         full:
@@ -1158,8 +1142,8 @@ bible:
         short: Jude
         full: Jude
       ru:
-        short:
-        full:
+        short: Иуд
+        full: Послание Иуды
       pl:
         short:
         full:
@@ -1174,8 +1158,8 @@ bible:
         short: Rev
         full: Revelation
       ru:
-        short:
-        full:
+        short: Откр
+        full: Откровение Иоанна Богослова
       pl:
         short:
         full:
