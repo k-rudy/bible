@@ -908,8 +908,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Флп
+        full: Пасланне да Філіпянаў
     chapters: 4
   colossians:
     order: 58
@@ -924,8 +924,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Клс
+        full: Пасланне да Каласянаў
     chapters: 4
   1_thessalonians:
     order: 59
@@ -940,8 +940,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Тэс
+        full: Першае Пасланне да Тэсаланікійцаў
     chapters: 5
   2_thessalonians:
     order: 60
@@ -956,8 +956,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Тэс
+        full: Другое Пасланне да Тэсаланікійцаў
     chapters: 3
   1_timothy:
     order: 61
@@ -972,8 +972,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Цiм
+        full: Першае Пасланне да Цімафея
     chapters: 6
   2_timothy:
     order: 62
@@ -988,8 +988,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Цiм
+        full: Другое Пасланне да Цімафея
     chapters: 4
   titus:
     order: 63
@@ -1004,8 +1004,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ціт
+        full: Пасланне да Ціта
     chapters: 3
   philemon:
     order: 64
@@ -1020,8 +1020,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Флм
+        full: Пасланне да Філімона
     chapters: 1
   hebrews:
     order: 65
@@ -1036,8 +1036,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Гбр
+        full: Пасланне да Габрэяў
     chapters: 13
   james:
     order: 66
@@ -1052,8 +1052,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Як
+        full: Пасланне св. Якуба
     chapters: 5
   1_peter:
     order: 67
@@ -1068,8 +1068,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 П
+        full: Першае Пасланне св. Пятра
     chapters: 5
   2_peter:
     order: 68
@@ -1084,8 +1084,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 П
+        full: Другое Пасланне св. Пятра
     chapters: 3
   1_john:
     order: 69
@@ -1100,8 +1100,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 1 Ян
+        full: Першае Пасланне св. Яна
     chapters: 5
   2_John:
     order: 70
@@ -1116,8 +1116,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 2 Ян
+        full: Другое Пасланне св. Яна
     chapters: 1
   3_john:
     order: 71
@@ -1132,8 +1132,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: 3 Ян
+        full: Трэцяе Пасланне св. Яна
     chapters: 1
   jude:
     order: 72
@@ -1148,8 +1148,8 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Юд
+        full: Пасланне св. Юды
     chapters: 1
   revelation:
     order: 73
@@ -1164,6 +1164,6 @@ bible:
         short:
         full:
       by:
-        short:
-        full:
+        short: Ап
+        full: Апакаліпсіс св. Яна
     chapters: 22
