@@ -1,0 +1,17 @@
+bible:
+  genesis:
+    order: 1
+    title:
+      en:
+        short: Gn
+        full: Genesis
+      ru:
+        short: Быт
+        full: Бытие
+      pl:
+        short:
+        full:
+      by:
+        short: Быц
+        full: Кніга Быцця
+    chapters: 50
