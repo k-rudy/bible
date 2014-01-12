@@ -12,7 +12,6 @@ describe Bible::Config::Reader do
     end
 
     it 'creates a book object correctly' do
-      pending 'Temporary fails due to db cleanup policy'
       expect(Bible::Book.count).to eq(0)
       subject.import
       bible = Bible::Book.first
@@ -20,7 +19,7 @@ describe Bible::Config::Reader do
       expect(bible.chapters_count).to eq(50)
       expect(bible.name).to eq('genesis')
       expect(bible.title).to eq('Gn')
-      expect(bible.order).to eq('Genesis')
+      expect(bible.title_full).to eq('Genesis')
     end
   end
 
