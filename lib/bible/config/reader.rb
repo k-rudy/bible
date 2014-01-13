@@ -8,7 +8,7 @@ module Bible
 
         def import
           config[:bible].each do |key, book|
-            Bible::Book.create!( {
+            Bible::Book.create!({
               name: key,
               chapters_count: book[:chapters],
               order: book[:order],

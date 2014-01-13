@@ -21,6 +21,10 @@ describe Bible::Config::Reader do
       expect(bible.title).to eq('Gn')
       expect(bible.title_full).to eq('Genesis')
     end
+
+    it 'can read books config' do
+      expect(File.exists? subject.send(:config_path)).to be_true
+    end
   end
 
   describe '#translate_title' do
