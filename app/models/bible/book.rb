@@ -1,7 +1,7 @@
 class Bible::Book
   include Mongoid::Document
 
-  has_many :verses
+  has_many :verses, class_name: 'Bible::Verse'
 
   field :name
   field :title, localize: true
@@ -10,4 +10,5 @@ class Bible::Book
   field :order, type: Integer
 
   index name: 1
+  index order: 1
 end

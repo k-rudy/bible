@@ -4,6 +4,7 @@ module Bible
     # Creates books collection based on the configuration content
     #
     class Reader
+
       class << self
 
         def import
@@ -27,7 +28,7 @@ module Bible
         end
 
         def config_path
-          File.read(File.expand_path('../../../config/books.yml', __FILE__))
+          File.expand_path('../../../../config/books.yml', __FILE__)
         end
 
         # Gets the title translations hash from the configuration file

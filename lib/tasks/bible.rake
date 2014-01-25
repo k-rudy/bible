@@ -1,6 +1,6 @@
 namespace :bible do
-  describe "Initialize bible books collection"
-  task :init_books do
-
+  desc "Initialize bible books collection"
+  task :init_books => :environment do
+    Bible::Config::Reader.import
   end
 end

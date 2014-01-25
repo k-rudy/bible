@@ -27,9 +27,12 @@ gem 'turbolinks'
 # Used for bible scraping
 gem 'mechanize'
 
-group :development, :test do
+group :development, :test do 
+  gem 'pry'
+end
+
+group :test do
   gem 'rspec-rails'
   gem 'mongoid-rspec'
   gem 'coveralls', require: false
-  gem 'pry'
 end
