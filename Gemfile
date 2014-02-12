@@ -25,7 +25,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Used for bible scraping
-gem 'mechanize'
+gem 'nokogiri'
 
 group :development, :test do 
   gem 'pry'
