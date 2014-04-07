@@ -11,4 +11,10 @@ class Bible::Book
 
   index name: 1
   index order: 1
+  
+  default_scope ->{ asc(:order) }
+  
+  def scrape(scaper)
+    
+  end
 end

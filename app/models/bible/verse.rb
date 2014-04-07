@@ -3,10 +3,9 @@ class Bible::Verse
 
   belongs_to :book
 
-  field :book_name
   field :chapter, type: Integer
   field :text, localize: true
+  field :order, type: Integer
 
-  index book_name: 1
-
+  index order: 1
 end

@@ -10,6 +10,8 @@ if ENV['TRAVIS']
   require 'coveralls'
   # Generates test coverage report for the project
   Coveralls.wear!
+else
+  require 'simplecov'  
 end
 
 # Requires supporting ruby files with custom matchers and macros, etc,
