@@ -27,6 +27,9 @@ gem 'turbolinks'
 # Used for bible scraping
 gem 'nokogiri'
 
+# Colorizing console output
+gem 'colored'
+
 group :development, :test do 
   gem 'pry'
 end

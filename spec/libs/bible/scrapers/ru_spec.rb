@@ -20,7 +20,7 @@ describe Bible::Scrapers::Ru do
       context 'when the verse number exists' do
       
         it 'returns verse text' do
-          pending 'API checks are suspended on CI' if ENV['TRAVIS']
+          pending 'integrated API checks are suspended due to performance reasons'
           expect(subject.send(:scrape_verse, 'ge', 1, 1)).to eq("В начале сотворил Бог небо и землю.")
         end
       end
@@ -28,7 +28,7 @@ describe Bible::Scrapers::Ru do
       context 'when the verse number doesnt exist' do
       
         it 'returns nil' do
-          pending 'API checks are suspended on CI' if ENV['TRAVIS']
+          pending 'integrated API checks are suspended due to performance reasons'
           expect(subject.send(:scrape_verse, 'ge', 1, 100)).to be_nil
         end
       end

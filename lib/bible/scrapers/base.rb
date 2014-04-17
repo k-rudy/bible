@@ -12,6 +12,13 @@ module Bible
           Bible::Book.all.map { |book| scrape_book(book) }
         end
         
+        # Returns the list of books titles that require mapping
+        #
+        # @return [ Array ] array of book titles needed to map
+        def missing_mappings
+          books_with_missing_mapping.map(&:title)
+        end
+        
         private
         
         # Srapes single book translation
@@ -54,7 +61,7 @@ module Bible
         # 
         # @return [ String ] mapping value
         def book_mapping(book)
-          title = book.title.downcase
+          title = book.title.downcase.gsub(/\s+/, '')
           CONFIG[:sources][translation][:mappings][title] || title
         end
         
@@ -96,6 +103,31 @@ module Bible
         # @return [ String ] translation code
         def translation
           @translation ||= name.underscore.split('/').last
+        end
+        
+        # Returns the list of books titles that require mapping
+        #
+        # @return [ Array ] array of books needed to map
+        def books_with_missing_mapping
+          Bible::Book.all.select do |book|
+            mapping = book_mapping(book)
+            Rails.logger.info("Mapping Check: #{book.title}")
+            begin
+              out scrape_verse(mapping, 1, 1), true
+            rescue OpenURI::HTTPError
+              out false, true
+            end
+          end
+        end
+        
+        # Outputs iteration result in a Rspec like format
+        #
+        # @param [ true, false ] revert - indicates whether it's needed to revert the result
+        #
+        # @retun [ true, false] result itself
+        def out(result, revert = false)
+          (result ? print('.'.green) : print('F'.red)) unless Rails.env.test?
+          revert ? !result : result
         end
       end
     end

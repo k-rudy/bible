@@ -149,6 +149,18 @@ describe Bible::Scrapers::Base do
   
   describe '#missing_mappings' do
     
-    it 'returns the list of books that need mapping'
+    let(:genesis) { build(:book, title: 'Gn') } 
+    let(:leviticus) { build(:book, title: 'Le') } 
+    
+    before do
+      subject.stub(translation: 'ru')
+      subject.stub(:scrape_verse).with('ge', 1, 1).and_return('Genesis')
+      subject.stub(:scrape_verse).with('le', 1, 1).and_return(nil) 
+      Bible::Book.stub(all: [ genesis, leviticus ])   
+    end
+    
+    it 'returns the list of books that need mapping' do
+      expect(subject.missing_mappings).to eq([ 'Le' ])
+    end
   end
 end
