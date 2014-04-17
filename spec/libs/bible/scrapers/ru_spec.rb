@@ -6,17 +6,31 @@ describe Bible::Scrapers::Ru do
   
   describe '#scrape_verse' do
     
-    context 'when the verse number exists' do
+    context 'Offline test' do
+      
+      before { subject.stub(open: File.open(File.expand_path("../../../../support/fixtures/translations/ru.html", __FILE__))) }
       
       it 'returns verse text' do
         expect(subject.send(:scrape_verse, 'ge', 1, 1)).to eq("В начале сотворил Бог небо и землю.")
       end
     end
     
-    context 'when the verse number doesnt exist' do
+    context 'API test' do
+    
+      context 'when the verse number exists' do
       
-      it 'returns nil' do
-        expect(subject.send(:scrape_verse, 'ge', 1, 100)).to be_nil
+        it 'returns verse text' do
+          pending 'API checks are suspended on CI' if ENV['TRAVIS']
+          expect(subject.send(:scrape_verse, 'ge', 1, 1)).to eq("В начале сотворил Бог небо и землю.")
+        end
+      end
+    
+      context 'when the verse number doesnt exist' do
+      
+        it 'returns nil' do
+          pending 'API checks are suspended on CI' if ENV['TRAVIS']
+          expect(subject.send(:scrape_verse, 'ge', 1, 100)).to be_nil
+        end
       end
     end
   end

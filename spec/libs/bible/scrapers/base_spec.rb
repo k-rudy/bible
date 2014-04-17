@@ -146,4 +146,9 @@ describe Bible::Scrapers::Base do
       end
     end
   end
+  
+  describe '#missing_mappings' do
+    
+    it 'returns the list of books that need mapping'
+  end
 end
