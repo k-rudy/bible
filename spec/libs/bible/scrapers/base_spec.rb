@@ -77,6 +77,8 @@ describe Bible::Scrapers::Base do
   
   describe '#process_verse' do
     
+    before { subject.stub(:book_mapping) }
+    
     it 'scrapes verse text' do
       expect(subject).to receive(:scrape_verse)
       subject.send(:process_verse, book, 1, 1)
@@ -119,6 +121,29 @@ describe Bible::Scrapers::Base do
       expect(verse.chapter).to eq(1)
       expect(verse.order).to eq(1)
       expect(verse.text_translations[:base]).to eq('text')
+    end
+  end
+  
+  describe '#book_mapping' do
+    
+    before { subject.stub(translation: 'ru') }
+    
+    context 'when there is a mapping for the book' do
+      
+      before { book.stub(title: 'Gn') }
+      
+      it 'returns mapping value' do
+        expect(subject.send(:book_mapping, book)).to eq('ge')
+      end
+    end
+    
+    context 'when there is no mapping defined' do
+      
+      before { book.stub(title: 'Le') }
+      
+      it 'returns downcased book title' do
+        expect(subject.send(:book_mapping, book)).to eq('le')
+      end
     end
   end
 end

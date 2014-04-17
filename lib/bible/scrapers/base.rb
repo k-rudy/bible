@@ -1,3 +1,5 @@
+require 'open-uri'
+
 module Bible
   module Scrapers 
     # Contains base scraping logic that is common for all translations
@@ -43,14 +45,23 @@ module Bible
         #
         # @return [ Verse, nil ] verse if it was creates, otherwise - nil
         def process_verse(book, chapter, verse_number)
-          verse_text = scrape_verse(book, chapter, verse_number)
+          mapping = book_mapping(book)
+          verse_text = scrape_verse(mapping, chapter, verse_number)
           create_verse(book, chapter, verse_number, verse_text) if verse_text
+        end
+         
+        # Gets the book mapping name for the scraping puposes
+        # 
+        # @return [ String ] mapping value
+        def book_mapping(book)
+          title = book.title.downcase
+          CONFIG[:sources][translation][:mappings][title] || title
         end
         
         # This method should be implemented in particular Scraper class
         #
         # @raise [ NotImplementedError ] on attempt to call the mathos on Base class
-        def scrape_verse(book, chapter, verse_number)
+        def scrape_verse(book_mapping, chapter, verse_number)
           raise NotImplementedError.new('Scraper class must implement #scrape_verse method')
         end
         

@@ -1,3 +1,5 @@
 sources:
   ru:
     url: http://google.com
+    mappings:
+      gn: ge
