@@ -113,7 +113,7 @@ module Bible
             mapping = book_mapping(book)
             Rails.logger.info("Mapping Check: #{book.title}")
             begin
-              out scrape_verse(mapping, 1, 1), true
+              out scrape_verse(mapping, 1, 2), true
             rescue OpenURI::HTTPError
               out false, true
             end
