@@ -14,7 +14,10 @@ class Bible::Book
   
   default_scope ->{ asc(:order) }
   
-  def scrape(scaper)
-    
+  # Order of the latest book verse
+  # 
+  # @return [Integer] latest verse order or if there are no verses yet - returns 0
+  def latest_verse_order(chapter)
+    verses.of_chapter(chapter).last.try(:order) || 0
   end
 end

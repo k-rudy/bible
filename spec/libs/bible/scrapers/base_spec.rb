@@ -41,8 +41,10 @@ describe Bible::Scrapers::Base do
   
   describe '#scrape_chapter' do
     
+    before { book.stub(latest_verse_order: 0) }
+    
     it 'scrapes book verses' do
-      expect(subject).to receive(:scrape_verses).with(book, 1)
+      expect(subject).to receive(:scrape_verses).with(book, 1, 1)
       subject.send(:scrape_chapter, book, 1)
     end
   end
@@ -71,6 +73,19 @@ describe Bible::Scrapers::Base do
       it 'recoursively calls the next verse to process' do
         expect(subject).to receive(:process_verse).with(book, 1, 2)
         subject.send(:scrape_verses, book, 1)
+      end
+    end
+    
+    context 'when server fails with error' do
+      
+      before do
+        subject.stub(:process_verse) { subject.unstub(:process_verse); raise OpenURI::HTTPError.new('', nil) }
+      end
+      
+      it 'wails 30 sec and tries once again' do
+        expect(subject).to receive(:process_verse).twice
+        expect(subject).to receive(:sleep).with(30)
+        subject.send(:scrape_verses, book, 1, 1)
       end
     end
   end
@@ -162,6 +177,7 @@ describe Bible::Scrapers::Base do
     end
     
     it 'returns the list of books that need mapping' do
+      #puts CONFIG.inspect
       expect(subject.missing_mappings).to eq([ 'Le', 'Nm' ])
     end
   end

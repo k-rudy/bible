@@ -10,4 +10,13 @@ namespace :scraper do
       puts 'Please set the translation like: rake scraper:missing_mappings[ru]'
     end
   end
+  
+  desc 'Scrapes the given granslation of the Bible'
+  task :scrape, [:translation] => [:environment] do |t, args|
+    if args[:translation].present?
+      result = Bible::Scrapers.const_get(args[:translation].camelize).scrape
+    else
+      puts 'Please set the translation like: rake scraper:scrape[ru]'
+    end
+  end
 end

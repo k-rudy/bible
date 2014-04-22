@@ -8,4 +8,9 @@ class Bible::Verse
   field :order, type: Integer
 
   index order: 1
+  
+  validates :order, uniqueness: { scope: [ :chapter, :book_id ] }
+  
+  default_scope ->{ asc(:order) }
+  scope :of_chapter, ->(chapter) { where(chapter: chapter) }
 end

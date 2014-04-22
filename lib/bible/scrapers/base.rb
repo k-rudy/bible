@@ -25,7 +25,9 @@ module Bible
         #
         # @param [ Bible::Book ] book
         def scrape_book(book)
+          print "\nScraping #{book.title}:" unless Rails.env.test?
           book.chapters_count.times do |i|
+            print "\n#{i + 1}: " unless Rails.env.test?
             scrape_chapter(book, i + 1)
           end
         end
@@ -35,7 +37,7 @@ module Bible
         # @param [ Bible::Book ] book
         # @param [ Integer ] chapter being imported
         def scrape_chapter(book, chapter)
-          scrape_verses(book, chapter)
+          scrape_verses(book, chapter, book.latest_verse_order(chapter) + 1)
         end
         
         # Scrapes the verse text and creates the Bible::Verse.
@@ -46,6 +48,10 @@ module Bible
         # @param [ Integer ] verse_number number being imported
         def scrape_verses(book, chapter, verse_number = 1)       
           process_verse(book, chapter, verse_number) && scrape_verses(book, chapter, verse_number + 1)
+        rescue OpenURI::HTTPError
+          out false
+          sleep(30)
+          scrape_verses(book, chapter, verse_number)
         end      
         
         # Scrapes verse text and if it exists - creates a verse
@@ -54,7 +60,7 @@ module Bible
         def process_verse(book, chapter, verse_number)
           mapping = book_mapping(book)
           verse_text = scrape_verse(mapping, chapter, verse_number)
-          create_verse(book, chapter, verse_number, verse_text) if verse_text
+          out create_verse(book, chapter, verse_number, verse_text) if verse_text
         end
          
         # Gets the book mapping name for the scraping puposes
