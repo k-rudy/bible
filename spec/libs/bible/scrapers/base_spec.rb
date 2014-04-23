@@ -140,21 +140,13 @@ describe Bible::Scrapers::Base do
   end
   
   describe '#book_mapping' do
-    
-    before { subject.stub(translation: 'ru') }
-    
-    context 'when there is a mapping for the book' do
-      
-      before { book.stub(title: 'Gn') }
-      
-      it 'returns mapping value' do
-        expect(subject.send(:book_mapping, book)).to eq('ge')
-      end
-    end
-    
+
     context 'when there is no mapping defined' do
       
-      before { book.stub(title: 'Le') }
+      before do 
+        book.stub(title: 'Le')
+        subject.stub(translation: 'ru')
+      end
       
       it 'returns downcased book title' do
         expect(subject.send(:book_mapping, book)).to eq('le')
