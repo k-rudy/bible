@@ -140,36 +140,44 @@ describe Bible::Scrapers::Base do
   end
   
   describe '#book_mapping' do
+    
+    before { subject.stub(translation: 'ru') }
 
     context 'when there is no mapping defined' do
       
-      before do 
-        book.stub(title: 'Le')
-        subject.stub(translation: 'ru')
-      end
+      before { book.stub(title: 'Le') }
       
       it 'returns downcased book title' do
         expect(subject.send(:book_mapping, book)).to eq('le')
+      end
+    end
+    
+    context 'when there is a mapping for the book' do
+      
+      before { book.stub(title: 'Gn') }
+      
+      it 'returns mapping value' do
+        expect(subject.send(:book_mapping, book)).to eq('ge')
       end
     end
   end
   
   describe '#missing_mappings' do
     
-    let(:genesis) { build(:book, title: 'Zx') } 
+    let(:genesis) { build(:book, title: 'Gn') } 
     let(:leviticus) { build(:book, title: 'Le') } 
-    let(:numbers) { build(:book, title: 'Nd') } 
+    let(:numbers) { build(:book, title: 'Nm') } 
     
     before do
       subject.stub(translation: 'ru')
-      subject.stub(:scrape_verse).with('zx', 1, 2).and_return('Genesis')
+      subject.stub(:scrape_verse).with('ge', 1, 2).and_return('Genesis')
       subject.stub(:scrape_verse).with('le', 1, 2).and_return(nil) 
-      subject.stub(:scrape_verse).with('nd', 1, 2).and_raise(OpenURI::HTTPError.new('error', nil))
+      subject.stub(:scrape_verse).with('nu', 1, 2).and_raise(OpenURI::HTTPError.new('error', nil))
       Bible::Book.stub(all: [ genesis, leviticus, numbers ])   
     end
     
     it 'returns the list of books that need mapping' do
-      expect(subject.missing_mappings).to eq([ 'Le', 'Nd' ])
+      expect(subject.missing_mappings).to eq([ 'Le', 'Nm' ])
     end
   end
   

@@ -4,20 +4,6 @@ describe Bible::Scrapers::Ru do
   
   subject { Bible::Scrapers::Ru }
   
-  describe '#book_mapping' do
-    
-    let(:book) { double('book', chapters_count: 1) }
-    
-    context 'when there is a mapping for the book' do
-      
-      before { book.stub(title: 'Gn') }
-      
-      it 'returns mapping value' do
-        expect(subject.send(:book_mapping, book)).to eq('ge')
-      end
-    end
-  end
-  
   describe '#scrape_verse' do
     
     context 'Offline test' do
