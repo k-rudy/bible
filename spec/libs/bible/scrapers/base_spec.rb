@@ -177,7 +177,7 @@ describe Bible::Scrapers::Base do
     end
     
     it 'returns the list of books that need mapping' do
-      puts CONFIG.inspect
+      puts subject.send(:book_mapping, genesis)
       expect(subject.missing_mappings).to eq([ 'Le', 'Nm' ])
     end
   end
