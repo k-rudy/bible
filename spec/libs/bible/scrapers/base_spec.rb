@@ -164,21 +164,20 @@ describe Bible::Scrapers::Base do
   
   describe '#missing_mappings' do
     
-    let(:genesis) { build(:book, title: 'Gn') } 
+    let(:genesis) { build(:book, title: 'Zx') } 
     let(:leviticus) { build(:book, title: 'Le') } 
-    let(:numbers) { build(:book, title: 'Nm') } 
+    let(:numbers) { build(:book, title: 'Nd') } 
     
     before do
       subject.stub(translation: 'ru')
-      subject.stub(:scrape_verse).with('ge', 1, 2).and_return('Genesis')
+      subject.stub(:scrape_verse).with('zx', 1, 2).and_return('Genesis')
       subject.stub(:scrape_verse).with('le', 1, 2).and_return(nil) 
-      subject.stub(:scrape_verse).with('nu', 1, 2).and_raise(OpenURI::HTTPError.new('error', nil))
+      subject.stub(:scrape_verse).with('nd', 1, 2).and_raise(OpenURI::HTTPError.new('error', nil))
       Bible::Book.stub(all: [ genesis, leviticus, numbers ])   
     end
     
     it 'returns the list of books that need mapping' do
-      puts subject.send(:book_mapping, genesis)
-      expect(subject.missing_mappings).to eq([ 'Le', 'Nm' ])
+      expect(subject.missing_mappings).to eq([ 'Le', 'Nd' ])
     end
   end
   
