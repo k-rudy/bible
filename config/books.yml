@@ -439,7 +439,7 @@ bible:
         full: Sirah
       ru:
         short: Сир
-        full: Книга премудрости Иисуса, сына Сирахова
+        full: 'Книга премудрости Иисуса, сына Сирахова'
       pl:
         short:
         full:
@@ -510,7 +510,7 @@ bible:
       by:
         short: Бар
         full: Кніга прарока Баруха
-    chapters: 6
+    chapters: 7
   ezekiel:
     order: 33
     title:

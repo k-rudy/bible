@@ -1,7 +1,7 @@
 class Bible::Verse
   include Mongoid::Document
 
-  belongs_to :book
+  belongs_to :book, class_name: 'Bible::Book'
 
   field :chapter, type: Integer
   field :text, localize: true

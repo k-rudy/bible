@@ -8,8 +8,9 @@ module Bible
       class <<self
         # Scrapes all Bible translation to the db
         #
-        def scrape
-          Bible::Book.all.map { |book| scrape_book(book) }
+        # @param [ String ] book title to start scraping from
+        def scrape(book_to_start_from = nil)
+          books_to_scrape(book_to_start_from).map { |book| scrape_book(book) }
         end
         
         # Returns the list of books titles that require mapping
@@ -21,6 +22,15 @@ module Bible
         
         private
         
+        def books_to_scrape(book_to_start_from)
+          if book_to_start_from
+            book = Bible::Book.by_title(book_to_start_from).first
+            Bible::Book.starting_from(book.order)
+          else
+            Bible::Book.all
+          end
+        end
+        
         # Srapes single book translation
         #
         # @param [ Bible::Book ] book
@@ -28,7 +38,7 @@ module Bible
           print "\nScraping #{book.title}:" unless Rails.env.test?
           book.chapters_count.times do |i|
             print "\n#{i + 1}: " unless Rails.env.test?
-            scrape_chapter(book, i + 1)
+            scrape_chapter(book, i + 1) 
           end
         end
         

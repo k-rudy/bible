@@ -177,8 +177,30 @@ describe Bible::Scrapers::Base do
     end
     
     it 'returns the list of books that need mapping' do
-      #puts CONFIG.inspect
+      puts CONFIG.inspect
       expect(subject.missing_mappings).to eq([ 'Le', 'Nm' ])
+    end
+  end
+  
+  describe '#books_to_scrape' do
+    
+    context 'when the book_to_start_from is present' do
+      
+      let(:book) { double('book', order: 10, title: 'Ps') }
+      before { Bible::Book.stub(by_title: [ book ]) }
+      
+      it 'returns books starting from that book' do
+        expect(Bible::Book).to receive(:starting_from).with(10)
+        subject.send(:books_to_scrape, 'Ps')
+      end
+    end
+    
+    context 'when the book_to_start_from is nil' do
+      
+      it 'returns all books' do
+        expect(Bible::Book).to receive(:all)
+        subject.send(:books_to_scrape, nil)
+      end
     end
   end
 end

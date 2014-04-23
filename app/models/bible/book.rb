@@ -13,6 +13,8 @@ class Bible::Book
   index order: 1
   
   default_scope ->{ asc(:order) }
+  scope :by_title, ->(title) { where(title: title) }
+  scope :starting_from, ->(book_order) { where(order: { '$gte' => book_order }) }
   
   # Order of the latest book verse
   # 
